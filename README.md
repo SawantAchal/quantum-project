@@ -64,7 +64,7 @@ SECRET_KEY=your-secret-key
 
 bash
 
-```cd /backend```
+```cd backend```
 
 ```npm start```
 
@@ -78,8 +78,8 @@ bash
 
 ### Usage
 Registration: Navigate to the / route to sign up a new user.
-Login: Navigate to the / route to authenticate and obtain a token.
-Dashboard: Upon logging in, users are redirected to the /dashboard route, where they can view and manage user details.
+Login: Navigate to the "/" route to authenticate and obtain a token.
+Dashboard: Upon logging in, users are redirected to the "/dashboard" route, where they can view and manage user details.
 
 
 ## Note: If on login the dashboard does not appear, try refreshing the page.
