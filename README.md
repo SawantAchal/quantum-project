@@ -25,43 +25,55 @@ Git
 ### Clone the repository
 
 bash
+
 ```git clone https://github.com/SawantAchal/quantum-project)```
+
 ```cd quantum-project```
 
 ### Install dependencies
 
-Frontend
+1. Frontend
+
 bash
+
 ```cd frontend```
+
 ```npm install```
 
-Backend
+2. Backend
+   
 ```cd backend```
+
 ```npm install```
 
 ### Setup MongoDB
 
 1. Create a MongoDB database and note the connection URL.
-2. Update the .env file with your MongoDB connection string.
+
+2.. Update the .env file with your MongoDB connection string.
 
 ### Environment Configuration
 
 Create a .env file in the backend directory with the following environment variables:
 
-PORT=4000
-MONGO_URI=your-mongodb-connection-string
-SECRET_KEY=your-secret-key
+PORT=4000 
+MONGO_URI=your-mongodb-connection-string 
+SECRET_KEY=your-secret-key 
 
 ### Start the Backend Server
 
 bash
+
 ```cd /backend```
+
 ```npm start```
 
 ### Start the Frontend Development Server
 
 bash
+
 ```cd frontend```
+
 ```npm start```
 
 ### Usage
